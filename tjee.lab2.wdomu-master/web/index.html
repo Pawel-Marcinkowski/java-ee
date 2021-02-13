@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Lab2-Derby</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/responsee.css">
+        <link rel="stylesheet" href="css/icons.css">
+        <link rel="stylesheet" href="css/components.css">
+    </head>
+    <body>
+        <p>Lista klientow </p>
+        <form action="./Wypisywanie">
+            <div class="s-12 m-5 l-2 left"><button type="submit">Wypisz</button></div>
+        </form>
+        <br/>
+        <br/>
+        <br/>
+        <p>Dodaj klienta</p>
+        <form action="./Dodawanie">
+            Dane klienta:
+            <br/>
+            ID:
+            <input type="text" id="id"  name="id">
+            <br/>
+            Nazwa:
+            <input type="text" id="nazwa"  name="nazwa">
+            <br/>
+            Adres:
+            <input type="text" id="adres"  name="adres">
+            <br/>
+            NIP/PESEL:
+            <input type="text" id="nip"  name="nip">
+            <br/>
+            Znizka?
+            <input type="checkbox" id="znizka"  name="znizka">
+            <br/>
+            Osoba fizyczna?
+            <input type="checkbox" id="osoba"  name="osoba">
+            <br/>
+            <div class="s-12 m-5 l-2 left"><button type="submit">Dodaj</button></div>
+        </form>
+        <br/>
+        <br/>
+        <br/>
+        <p>Usun klienta </p>
+        <form action="./Usuwanie">
+            ID:
+            <input type="text" id="idUsuwanie"  name="idUsuwanie">
+            <br/>
+            <div class="s-12 m-5 l-2 left"><button type="submit">Usun</button></div>
+        </form>
+        <br/>
+        <br/>
+        <br/>
+        <p>Zapisz dane klientow do csv </p>
+        <form action="./Zapisywanie">
+            <div class="s-12 m-5 l-2 left"><button type="submit">Zapisz</button></div>
+        </form>
+        <br/>
+        <br/>
+        <br/>
+        <p>Lista zmian w sql </p>
+        <form action="./WypisywanieHistorii">
+            <div class="s-12 m-5 l-2 left"><button type="submit">Wypisz</button></div>
+        </form>
+        <br/>
+        <br/>
+        <br/>
+    </body>
+</html>
+
