@@ -1,0 +1,16 @@
+ID_PRACOWNIKA; PRACOWNIK; STANOWISKO; NR_POKOJU; DATA_ZATRUDNIENIA; CZY_ZDALNIE; CZY_URLOP; 
+1; Michal Kosieradzki; Devops; 69; 2020-10-27; true; false; 
+2; Dominik Czerwinski; Tester; 70; 2020-10-01; true; true; 
+3; Przemek Swieca; Mechanik; 1; 2002-12-24; false; false; 
+4; Andrzej Stanislaw; scram master; 23; 1998-01-01; true; true; 
+5; Anita Pies; Owner; 2; 1990-09-09; false; true; 
+6; Karol Korkowski; Helpdesk; 3; 2019-12-12; true; true; 
+7; Pawel Marcinkowski; Asystent; 69; 2020-10-27; false; false; 
+8; Krystian Waz; Asystent; 70; 2020-10-27; true; false; 
+9; Piotr Krzys; BHP; 444; 2017-07-07; true; true; 
+10; Salazar Salomon; Kucharz; 71; 2020-10-27; false; false; 
+11; Jezy Zwiezy; Sekretarka; 31; 2020-10-27; false; false; 
+12; Anastazja Morawiecka; Ksiegowa; 21; 2004-11-21; true; false; 
+13; Katarzyna Makumba; Programista ; 33; 2020-11-13; true; false; 
+14; Sebastian Kotestan; Sprzatacz; 4; 2020-10-27; false; true; 
+15; Marcin Testowy; Tester; 111; 2011-11-11; false; true; 
